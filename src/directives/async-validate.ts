@@ -96,8 +96,8 @@ const AsyncValidate = (pluginDebounceInterval?: number): DirectiveOptions => {
             if (componentInstance.validateAsync === validateAsync) {
               this.$data.errorBucket = nextErrorBucket;
               this.$data.valid = nextValid;
-              return resolve(nextValid);
             }
+            return resolve(nextValid);
           });
         });
       };
@@ -172,8 +172,8 @@ const AsyncValidate = (pluginDebounceInterval?: number): DirectiveOptions => {
             if (componentInstance.validateAsync === validateAsync) {
               this.$data.errorBucket = nextErrorBucket;
               this.$data.valid = nextValid;
-              return resolve(nextValid);
             }
+            return resolve(nextValid);
           });
         });
       };
