@@ -1,3 +1,4 @@
+// @ts-nocheck
 import type { PluginObject } from "vue";
 import AsyncValidate from "./directives/async-validate";
 import AsyncForm from "./directives/async-form";

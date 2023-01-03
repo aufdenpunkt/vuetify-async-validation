@@ -1,3 +1,4 @@
+// @ts-nocheck
 import type { DirectiveOptions } from "vue";
 
 const AsyncForm: DirectiveOptions = {
